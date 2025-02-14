@@ -1,0 +1,33 @@
+/* Logo do sistema com as iniciais */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1; /* Isso permite que o logo ocupe o espaço necessário à esquerda */
+  }
+  
+  /* Estilo para o ícone com as iniciais */
+  .logo-icon {
+    width: 40px; /* Tamanho do ícone */
+    height: 40px;
+    background-color: #F97316; /* Cor laranja */
+    color: white; /* Cor das letras */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; /* Tamanho das letras */
+    font-weight: bold;
+    border-radius: 50%; /* Tornando o ícone redondo */
+    text-transform: uppercase; /* Letras maiúsculas */
+  }
+  
+  /* Nome do sistema */
+  .system-name {
+    font-size: 22px;
+    color: white; /* Cor branca para o nome */
+    font-weight: bold;
+  }
+  
+  
+
+  
