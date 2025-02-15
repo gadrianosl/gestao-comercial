@@ -25,6 +25,7 @@ main {
     flex-direction: column;
     background-color: #f5f5f5;
     color: #002855;
+    overflow-x: hidden; /* Remove a rolagem horizontal */    
   }
   
 /* 🎨 Navbar dentro do cabeçalho */

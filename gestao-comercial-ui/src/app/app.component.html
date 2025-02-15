@@ -12,7 +12,15 @@
       <li><a routerLink="/vendas" routerLinkActive="active" title="Vendas"><i class="fas fa-cash-register"></i></a></li>
       <li><a routerLink="/compras"><i class="fas fa-shopping-bag"></i></a></li>
       <li><a routerLink="/relatorios"><i class="fas fa-chart-line"></i></a></li>
-      <li><a routerLink="/ajuda"><i class="fas fa-question-circle"></i></a></li>
+       <!-- Menu Ajuda com Submenu -->
+       <li class="menu-ajuda">
+        <a class="nav-icon" title="Ajuda"><i class="fas fa-question-circle"></i></a>
+        <ul class="submenu">
+          <li><a routerLink="/ajuda/manuais"><i class="fas fa-book"></i> Manuais</a></li>
+        </ul>
+      </li>
+      
+      
     </ul>
   </nav>
 </header>
