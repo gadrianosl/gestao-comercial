@@ -1,11 +1,9 @@
 {
+  "version": 2,
   "builds": [
     {
-      "src": "gestao-comercial-ui/angular.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "gestao-comercial-ui/dist"
-      }
+      "src": "gestao-comercial-ui/dist/gestao-comercial-ui",
+      "use": "@vercel/static"
     }
   ],
   "rewrites": [
@@ -15,4 +13,3 @@
     }
   ]
 }
-

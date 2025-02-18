@@ -35,7 +35,7 @@
               "dompurify",
               "jspdf"
             ],
-            "outputPath": "dist",
+            "outputPath": "dist/gestao-comercial-ui",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
