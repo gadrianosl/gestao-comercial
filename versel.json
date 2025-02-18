@@ -6,7 +6,7 @@
       {
         "src": "angular.json",
         "use": "@vercel/static-build",
-        "config": { "distDir": "dist/gestao-comercial-ui" }
+        "config": { "distDir": "dist" }
       }
     ]
   }
