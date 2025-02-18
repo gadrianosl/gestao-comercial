@@ -2,11 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "gestao-comercial-ui/dist/gestao-comercial-ui/**/*",
+      "src": "gestao-comercial-ui/dist/**/*",
       "use": "@vercel/static"
     }
   ],
-  "outputDirectory": "gestao-comercial-ui/dist/gestao-comercial-ui",
+  "outputDirectory": "gestao-comercial-ui/dist",
   "rewrites": [
     {
       "source": "/(.*)",
