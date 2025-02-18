@@ -1,13 +1,11 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/index.html" }
-    ],
-    "builds": [
-      {
-        "src": "angular.json",
-        "use": "@vercel/static-build",
-        "config": { "distDir": "dist" }
+  "builds": [
+    {
+      "src": "gestao-comercial-ui/angular.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "gestao-comercial-ui/dist"
       }
-    ]
-  }
-  
+    }
+  ]
+}
