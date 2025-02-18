@@ -7,5 +7,12 @@
         "distDir": "gestao-comercial-ui/dist"
       }
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
+
