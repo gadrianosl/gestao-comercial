@@ -2,15 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "gestao-comercial-ui/dist/**/*",
+      "src": "gestao-comercial-ui/dist/browser/**/*",
       "use": "@vercel/static"
     }
   ],
-  "outputDirectory": "gestao-comercial-ui/dist",
+  "outputDirectory": "gestao-comercial-ui/dist/browser",
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "browser/index.html"
+      "destination": "/index.html"
     }
   ]
 }
